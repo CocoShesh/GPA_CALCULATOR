@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background: linear-gradient(to right, lightblue, lightgray);
+}
+
+#calculator {
+    width: 300px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.2);
+}
+
+.input-row1, .input-row2 {
+    margin-bottom: 10px;
+}
+#math{
+    margin-left: 55px;
+}
+#esp {
+    margin-left: 55px;
+}
+#Mapeh{
+    margin-left: 36px;
+}
+input[type="text"] {
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.1);
+    margin-left: 30px;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.1);
+}
+
+.calculate-button {
+    margin-top: 20px;
+}
+
+.output {
+    margin-top: 20px;
+    font-size: 20px;
+}
